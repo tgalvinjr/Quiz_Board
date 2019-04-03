@@ -1,4 +1,6 @@
-.container {}
+.container {
+
+}
 
 .col-md-6 {
     background-color: aqua;
@@ -6,8 +8,6 @@
     border-radius: 10px;
 }
 body {
-    background-image: linear-gradient(black, rgb(74, 158, 74));
-    height: 610px;
-}
-
+    background-image: linear-gradient(black, rgb(74, 158, 74), rgb(255, 255, 255));
+    height: 635px;
 }
