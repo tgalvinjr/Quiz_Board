@@ -12,52 +12,59 @@
 <body>
     <div class="container">
         <div class="student-name">
-            <form action="">
+            <form action="student-info">
                 Student Name:<br>
-                <input type="text" name="sName" placeholder="Enter Your Name">  
+                <input type="text" name="sName" placeholder="Enter Your Name">
             </form>
-        </div class="questions-form">
-        <form action="">
+        </div class="questions-body">
+        <form name="questionsForm" class="questions">
             <div class="row row1">
                 <div class="col-md-6"><strong>Question One</strong><br>
                     What does HTML stand for?<br>
-                    <input type="radio" name="question1" value="a"> Hyperlinks and Text Markup Language<br>
-                    <input type="radio" name="question1" value="b"> Home Tool Markup Language<br>
-                    <input type="radio" name="question1" value="c"> Hyper Text Markup Language<br>
+                    <input type="radio" name="question1" value="Hyperlinks and Text Markup Language"> Hyperlinks and
+                    Text Markup Language<br>
+                    <input type="radio" name="question1" value="Home Tool Markup Language"> Home Tool Markup
+                    Language<br>
+                    <input type="radio" name="question1" value="Hyper Text Markup Language"> Hyper Text Markup
+                    Language<br>
 
                 </div>
                 <div class="col-md-6"><strong>Question Two</strong><br>
                     Where is the meta tag only found?<br>
-                    <input type="radio" name="question1" value="a"> The last page<br>
-                    <input type="radio" name="question1" value="b"> The home page<br>
-                    <input type="radio" name="question1" value="c"> The second page<br>
+                    <input type="radio" name="question2" value="The last page"> The last page<br>
+                    <input type="radio" name="question2" value="The home page"> The home page<br>
+                    <input type="radio" name="question2" value="The second page"> The second page<br>
                 </div>
             </div>
             <div class="row row2">
                 <div class="col-md-6"><strong>Question Three</strong><br>
                     What do you use to enclose values in HTML?<br>
-                    <input type="radio" name="question1" value="a"> Quotation marks<br>
-                    <input type="radio" name="question1" value="b"> Commas<br>
-                    <input type="radio" name="question1" value="c"> Parenthesis<br>
+                    <input type="radio" name="question3" value="Quotation marks"> Quotation marks<br>
+                    <input type="radio" name="question3" value="Commas"> Commas<br>
+                    <input type="radio" name="question3" value="Parenthesis"> Parenthesis<br>
                 </div>
                 <div class="col-md-6"><strong>Question Four</strong><br>
                     Is < body> an opening tag or a closing tag?<br>
-                    <input type="radio" name="question1" value="a"> Opening<br>
-                    <input type="radio" name="question1" value="b"> Closing<br>
-                    <input type="radio" name="question1" value="c"> None of the above<br>
+                        <input type="radio" name="question4" value="Opening"> Opening<br>
+                        <input type="radio" name="question4" value="Closing"> Closing<br>
+                        <input type="radio" name="question4" value="None of the above"> None of the above<br>
                 </div>
             </div>
             <div class="row row3">
                 <div class="col-md-6"><strong>Question Five</strong><br>
                     How many tags are in a regular element?<br>
-                    <input type="radio" name="question1" value="a"> Two<br>
-                    <input type="radio" name="question1" value="b"> One<br>
-                    <input type="radio" name="question1" value="c"> Three<br>
+                    <input type="radio" name="question5" value="Three"> Three<br>
+                    <input type="radio" name="question5" value="One"> One<br>
+                    <input type="radio" name="question5" value="Two"> Two<br>
                 </div>
-                <div class="col-md-6"><strong>Your Results</strong></div>
+                <div class="col-md-6" id="results"><strong>Your Results</strong></div>
             </div>
+            <div id="submit">
+                <input type="submit" value="submit" onclick="checkanswer()">
         </form>
     </div>
+    <script src="./jquery.js"></script>
+    <script src="./index.js"></script>
 </body>
 
 
