@@ -11,7 +11,7 @@
 
 }
 body {
-    background-image: linear-gradient(black, rgb(74, 158, 74), rgb(255, 255, 255));
+    background-image: linear-gradient(rgb(74, 158, 74), yellow);
     height: 750px;
     color: black;
 }
