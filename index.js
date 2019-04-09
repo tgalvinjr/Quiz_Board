@@ -18,8 +18,6 @@ $(document).ready(function () {
 
     });
 
-
-
     //BUSINESS LOGIC
     function addScore(params) {
         var markscounter = 0;
@@ -33,36 +31,38 @@ $(document).ready(function () {
                 var markscounter = 0;
                 //BUSINESS LOGIC
                 if (q1 == "Hyper Text Markup Language") {
-                    markscounter++;
+                    markscounter+=20;
                 }
                 if (q2 == "The home page") {
-                    markscounter++;
+                    markscounter+=20;
                 }
                 if (q3 == "Quotation marks") {
-                    markscounter++;
+                    markscounter+=20;
                 }
                 if (q4 == "Opening") {
-                    markscounter++;
+                    markscounter+=20;
                 }
                 if (q5 == "Two") {
-                    markscounter++;
+                    markscounter+=20;
                 }
                 alert("YOUR SCORE IS " + markscounter + " PERCENT")
             }
-            
-            
-            markscounter += 20;
+
+            markscounter += 0;
         }
-        if (params === "b") {
+        if (params === "Hyper Text Markup Language") {
             markscounter+=20;
         }
-        if (params === "a") {
+        if (params === "The home page") {
             markscounter+=20;
         }
-        if (params === "a") {
+        if (params === "Quotation marks") {
             markscounter+=20;
         }
-        if (params === "c") {
+        if (params === "Opening") {
+            markscounter+=20;
+        }
+        if (params === "Two") {
             markscounter+=20;
         }
         return markscounter;
