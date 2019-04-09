@@ -4,15 +4,34 @@
 
 .col-md-6 {
     background-color: rgb(23, 141, 82,);
-    border: 2px solid black;
+    border: 1px solid black;
     border-radius: 10px;
+    border-color: white;
+
 }
 body {
     background-image: linear-gradient(black, rgb(74, 158, 74), rgb(255, 255, 255));
-    height: 635px;
-    color: white;
+    height: 750px;
+    color: black;
 }
 .questions-body {
+    margin-top: 200px;
     padding: 70px;
-    border: 51px solid rgb(17, 19, 17);
+    border: 2px solid rgb(17, 19, 17);
+    border-color: white;
+    border-radius: 10px;
+}
+
+
+#logo {
+    
+    border-radius: 10px;
+}
+h1{
+    color: white;
+    font-family: Dokdo;
+}
+h2{
+    color: white;
+    font-family: Dokdo;
 }

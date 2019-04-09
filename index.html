@@ -8,11 +8,30 @@
     <title>Quiz Board</title>
     <link rel="stylesheet" href="./static/css/bootstrap.css">
     <link rel="stylesheet" href="./static/css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Dokdo" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif+TC" rel="stylesheet">
 
 <body>
     <div class="container">
-        <div class="student-name">
-        </div>
+        <div class="container">
+            <div class="row row1">
+            </div>
+            <div class="col-md-6" style="height:140px" id="logo">
+                <h1>Welcome to Quiz Board</h1>
+                <h2>Test your html proficiency skills and get your scores instatenously</h2>
+            </div>
+            <div class="col-md-6" id="logotext">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 id="quiz1">QUIZ</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 id="boardh1">BOARD</h1>
+                    </div>
+                </div>
+            </div>
         <div class="questions-body">
             <form name="questionsForm" class="questions">
                 <div class="row row1">
@@ -57,7 +76,7 @@
                     <div style="height:110px;" class="col-md-6" id="results"><strong>Your Results</strong></div>
                 </div>
                 <div id="submit">
-                    <input type="submit" value="submit" onclick="checkanswer()">
+                    <input class="btn btn-success" type="submit" value="submit" onclick="checkanswer()">
             </form>
         </div>
         <script src="./jquery.js"></script>
