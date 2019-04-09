@@ -20,36 +20,7 @@ $(document).ready(function () {
 
     //BUSINESS LOGIC
     function addScore(params) {
-        var markscounter = 0;
-        if (params === "c") {//UI LOgic
-            function checkanswer() {
-                var q1 = document.questionForm.question1.value;
-                var q2 = document.questionForm.question2.value;
-                var q3 = document.questionForm.question3.value;
-                var q4 = document.questionForm.question4.value;
-                var q5 = document.questionForm.question5.value;
-                var markscounter = 0;
-                //BUSINESS LOGIC
-                if (q1 == "Hyper Text Markup Language") {
-                    markscounter+=20;
-                }
-                if (q2 == "The home page") {
-                    markscounter+=20;
-                }
-                if (q3 == "Quotation marks") {
-                    markscounter+=20;
-                }
-                if (q4 == "Opening") {
-                    markscounter+=20;
-                }
-                if (q5 == "Two") {
-                    markscounter+=20;
-                }
-                alert("YOUR SCORE IS " + markscounter + " PERCENT")
-            }
-
-            markscounter += 0;
-        }
+        let markscounter = 0;
         if (params === "Hyper Text Markup Language") {
             markscounter+=20;
         }
@@ -67,7 +38,4 @@ $(document).ready(function () {
         }
         return markscounter;
     }
-
-
-
 });

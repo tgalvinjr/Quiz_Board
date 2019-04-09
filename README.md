@@ -1,15 +1,12 @@
 # QUIZ BOARD
 ## Description
-A game played by 2 players who roll a six-sided die and accumulate points. The winner of the game is the player who is first to accumulate 100 points.
+ A website on which students can take HTML test. Users will answer the multiple choice questions on the website, and know their score immediately.
 
 ## Features
-1. As a user, I want to roll the dice when it's my turn to play in the game.
-2. As a user, I want to see the score I get for each roll of the dice I make in the game.
-3. As a user, I want to see my cumulative score for each round I play in the game. For example, if I roll the scores 2-6-3 consecutively, I should see my end score as 11.
-4. As a user, I want the option to hold my score when I'm satisfied with the points I've gained in a round of playing. The game should, therefore, add my held score to my most recent cumulative score.
-5. As a user, I want to be alerted when my dice rolls on number 1. This will help me know that I can't roll the dice until the alternate player takes their round.
-6. As a user, I need a way to know which player has won the game, which means they have scored 100 points before the alternate player.
-
+1. As a user, I want to see the multi-choice questions when the website loads. You will create the multi-choice questions to be answered on the website. Each question should have a number of points awarded when scored right.
+2. As a user, I want to select the answer which I think is correct from the webpage.
+3. As a user, I want to submit my answers when I'm done taking the quiz.
+4. As a user, I want to get the results of what I scored after submitting my answers on the website.  
 
 ## BDD
 | BEHAVIOUR                            | INPUT EXAMPLE                           | OUTPUT EXAMPLES       |
@@ -33,7 +30,7 @@ A game played by 2 players who roll a six-sided die and accumulate points. The w
 `HTML5`, `CSS3`, `JavaScript`, `Bootstrap`, `JQuery`
 
 ## Known Bugs
-The game does not terminate and refresh scores after a winner is declared. Players have to manually refresh the page
+There are not any known bugs at the moment. In case you encounter a bug, please feel free to contact the developer
 
 ### Author(s) information
 Alvin Michoma
