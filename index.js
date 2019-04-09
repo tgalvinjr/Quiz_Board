@@ -22,19 +22,19 @@ $(document).ready(function () {
     function addScore(params) {
         let markscounter = 0;
         if (params === "Hyper Text Markup Language") {
-            markscounter+=20;
+            markscounter += 20;
         }
         if (params === "The home page") {
-            markscounter+=20;
+            markscounter += 20;
         }
         if (params === "Quotation marks") {
-            markscounter+=20;
+            markscounter += 20;
         }
         if (params === "Opening") {
-            markscounter+=20;
+            markscounter += 20;
         }
         if (params === "Two") {
-            markscounter+=20;
+            markscounter += 20;
         }
         return markscounter;
     }
